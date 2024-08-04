@@ -1,0 +1,83 @@
+body{
+   background-color: #f0f0f0;
+}
+
+
+.card1{
+    background-color: white;
+    width: 50%;
+    margin: auto; 
+    margin-top: 7%;
+    border-radius: 20px 20px 130px 20px;
+    padding: 50px 20px 20px 30px;
+}
+
+.label1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #6f6f6f;
+
+    /* #7e4ff6 */
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.input1{
+    margin-top: 10px;
+    font-size: 28px;
+    border-radius: 6px;
+    border: 1px solid #d7d7d7;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+}
+
+.div1{
+    width: 20%; 
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.div_dire{
+    width: 80px;
+    height: 80px;
+    background-color:#7F2CCB;
+    border-radius: 100%; transition: 1s;
+}
+.div_dire:hover{
+    background-color: #6f6f6f;
+}
+.div_dire:active{
+    background-color: #6f6f6f; transform: scale(1.1);
+}
+.div_p1{
+    margin-top: 0px;
+    margin-left: 25px;
+    width: 78%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.div_p2{
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.img2{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.show1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    font-style: italic;
+    margin-left: 35px; 
+    color: #2b2b2b;
+    margin-top: -20px;
+ 
+}

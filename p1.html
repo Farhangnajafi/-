@@ -1,0 +1,89 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="p1.css">
+
+<meta name="viewport" content="viewport-fit=cover,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+</head>
+
+<body >
+ 
+<!-- <img src="j1.jpg"> -->
+<div class="card1">
+
+ <div>
+
+<div class="div1">
+    <label class="label1">DAY</label>
+    <br>
+    <input class="input1" placeholder="DD" id="input-day">
+</div>
+
+<div class="div1">
+    <label class="label1">MONTH</label>
+    <br>
+    <input class="input1" placeholder="MM" id="input-month">
+</div>
+
+
+<div class="div1">
+    <label class="label1">YEAR</label>
+    <br>
+    <input class="input1" placeholder="YYYY" id="input-year">
+</div>
+ </div>
+
+
+ <div class="div_p1">
+    <div style="    border-top: 1px solid #d4d4d4;">
+
+    </div>
+ </div>
+
+<div class="div_p2">
+    <div class="div_dire" onclick="show()">
+        <img src="done.png" class="img2">
+    </div>
+</div>
+
+
+<div class="show1">
+<span style="color:#7e4ff6 ;" id="years">- -</span> years
+</div>
+
+
+<div class="show1">
+<span style="color:#7e4ff6 ;" id="months">- -</span> months
+</div>
+
+
+<div class="show1">
+<span style="color:#7e4ff6 ;" id="days">- -</span> days
+</div>
+
+
+</div>
+<script>
+    function show(){
+var day=document.getElementById("input-day").value;
+var month=document.getElementById("input-month").value;
+var year=document.getElementById("input-year").value;
+
+var emrooz_sal='1403';
+var emrooz_mah='04';
+var emrooz_day='22';
+
+day= emrooz_day- day;
+month=emrooz_mah-month;
+year=emrooz_sal-year;
+
+document.getElementById("years").innerText=year;
+document.getElementById("months").innerText=month;
+document.getElementById("days").innerText=day;
+    }
+</script>
+
+
+</body>
+</html>
